@@ -14,7 +14,7 @@ const Menu = [
   },
   {
     id: 2,
-    name: "Top Rated",
+    name: "Trending On Shoping",
     link: "/#services",
   },
   {
@@ -29,7 +29,7 @@ const Menu = [
   },
   {
     id: 3,
-    name: "Electronics",
+    name: "Women's wear",
     link: "/#",
   },
 ];
@@ -56,12 +56,12 @@ const Navbar = ({ handleOrderPopup }) => {
   return (
     <div className="shadow-md bg-white dark:bg-slate-800 dark:text-white duration-200 relative z-40">
       {/* upper Navbar */}
-      <div className="bg-primary/40 py-2">
+      <div className="bg-primary/70 py-2">
         <div className="container flex justify-between items-center">
           <div>
-            <a href="#" className="font-bold text-xl items-center flex gap-1">
+            <a href="#" className="font-bold text-xl  items-center flex gap-1">
               <FiShoppingBag size="30" />
-              ShopMe
+              Shoping.com
             </a>
           </div>
 
@@ -111,7 +111,7 @@ const Navbar = ({ handleOrderPopup }) => {
           {/* Simple Dropdown and Links */}
           <li className="group relative cursor-pointer">
             <a href="#" className="flex items-center gap-[2px] py-2">
-              Trending Products
+              Menu
               <span>
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
               </span>

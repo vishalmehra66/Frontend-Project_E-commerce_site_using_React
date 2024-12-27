@@ -39,13 +39,14 @@ const ProductsData = [
     aosDelay: "600",
   },
   {
-    id: 5,
-    img: Img2,
-    title: "Fashin T-Shirt",
-    rating: 4.5,
-    color: "Pink",
-    aosDelay: "800",
+    id: 1,
+    img: Img1,
+    title: "Women Ethnic",
+    rating: 4.0,
+    color: "white",
+    aosDelay: "0",
   },
+  
 ];
 
 const Products = () => {
@@ -55,7 +56,7 @@ const Products = () => {
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p data-aos="fade-up" className="text-sm text-primary">
-            Top Selling Products for you
+            Top Selling Products for Women
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
             Products
@@ -95,7 +96,7 @@ const Products = () => {
           {/* view all button */}
           <div className="flex justify-center">
             <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
-              View All Button
+              More Products... 
             </button>
           </div>
         </div>

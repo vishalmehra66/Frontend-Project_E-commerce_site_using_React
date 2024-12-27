@@ -34,6 +34,11 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                 />
                 <input
                   type="text"
+                  placeholder="Your Items"
+                  className=" w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
+                />
+                <input
+                  type="text"
                   placeholder="Address"
                   className=" w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
                 />
