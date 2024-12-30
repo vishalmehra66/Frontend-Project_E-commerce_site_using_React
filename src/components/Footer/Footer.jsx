@@ -24,7 +24,7 @@ import { IoCall } from "react-icons/io5";
 const FooterLinks = [
   {
     title: "Home",
-    link: "/#",
+    link: "/#hero",
   },
   {
     title: "About",

@@ -1,6 +1,6 @@
 import React from "react";
 import Image1 from "../../assets/hero/women.png";
-import Image2 from "../../assets/hero/mens2.png";
+import Image2 from "../../assets/hero/mens3.png";
 import Image3 from "../../assets/hero/sale.png";
 import Slider from "react-slick";
 
@@ -22,7 +22,7 @@ const ImageList = [
   {
     id: 3,
     img: Image3,
-    title: "70% off on all Products Sale",
+    title: "25% off on all Products Sale",
     description:
       "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
@@ -45,7 +45,7 @@ const Hero = ({ handleOrderPopup }) => {
   return (
     <div className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 flex justify-center items-center dark:bg-slate-950 dark:text-white duration-200 ">
       {/* background pattern */}
-      <div className="h-[700px] w-[700px] bg-primary/80 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
+      <div className="h-[700px] w-[700px] bg-primary/80 absolute -top-1/3 right-0 rounded-3xl rotate-45 -z[8]"></div>
       {/* hero section */}
       <div className="container pb-8 sm:pb-0">
         <Slider {...settings}>
@@ -58,7 +58,7 @@ const Hero = ({ handleOrderPopup }) => {
                     data-aos="zoom-out"
                     data-aos-duration="500"
                     data-aos-once="true"
-                    className="text-5xl sm:text-6xl lg:text-7xl font-bold"
+                    className="text-4xl sm:text-5xl lg:text-6xl font-bold"
                   >
                     {data.title}
                   </h1>
@@ -93,7 +93,7 @@ const Hero = ({ handleOrderPopup }) => {
                     <img
                       src={data.img}
                       alt=""
-                      className="w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-105 lg:scale-120 object-contain mx-auto"
+                      className="w-[250px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-105 lg:scale-120 object-contain mx-auto"
                     />
                   </div>
                 </div>
